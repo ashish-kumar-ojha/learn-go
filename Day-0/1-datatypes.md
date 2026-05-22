@@ -37,3 +37,21 @@ When we use this sign, the type of variable will be ***inferred*** from the valu
 `age := 29`
 
 `isActive := false`
+
+## Declaring Multiple Variables
+
+It is possible to declare muliple variable in one statement.
+
+`var scores a, b, c, d int = 4, 5, 8, 2`
+
+but if we use the type (***Ex: We have specified int while declaring***), we can declare only one type of variable in single line. 
+
+If we do not specify the data type we can declare different type of variables in single line.
+
+***Example***
+
+`var a, b = "name", 29`
+
+or we can do this also
+
+`a, b := "name", 29`
